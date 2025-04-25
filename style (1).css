@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    top: 0;
+    width: 100%;
+    background-color: rgb(144, 195, 230);
+    justify-content: center;
+    position: fixed;
+}
+nav{
+    padding: 10px;
+}
+nav a{
+    padding: 10px 25px;
+    text-decoration: none;
+    color: rgb(236, 241, 245);
+}
+nav a:hover{
+color: rgba(64, 104, 150, 0.815);
+background-color: rgb(168, 201, 231);
+transition: 0.4s;
+font-size: 20px;
+}
+.Home{
+    height: 800px;
+    background-color: rgb(250, 193, 88);
+}
+.About{
+height: 800px;
+background-color: rgb(243, 220, 115);
+}
+.Product{
+    height: 800px;
+    background-color: rgb(250, 193, 88);
+}
+.Contact{
+    height: 800px;
+    background-color: rgb(243, 220, 115);
+    }
+.footer{
+    height: 100px;
+    background-color: black;
+}
